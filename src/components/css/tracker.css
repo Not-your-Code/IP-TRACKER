@@ -1,10 +1,10 @@
 
 .Title{
-    position: absolute;
-    left: 41%;
+    position: relative;
     font-family: 'Roboto Mono', monospace;
-
-    margin-top: 40px;
+    left: 75px;
+    margin: 40px 0px;
+   
 }
 
 .Title::after{
@@ -25,4 +25,35 @@
 
 .Title:hover::after{
     width: 99%;
+}
+
+
+input{
+    width: 280px;
+    margin-right: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(161, 161, 161);
+    padding:0px 20px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 110px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+.Cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mid{
+    margin-bottom: 30px;
+}
+.align-bottom{
+    margin-bottom: 30px;
 }

@@ -10,8 +10,8 @@ export class Navbar extends Component {
                     </div>
                     <div className='li'>
                         <ul className='list'>
-                            <li className='item_nav'>About</li>
-                            <li className='item_nav'>Api</li>
+                            <li className='item_nav'><a href="https://github.com/Not-your-Code/IP-TRACKER">About</a></li>
+                            <li className='item_nav'><a href="https://ipgeolocation.io/">Api</a></li>
                             </ul>
                     </div>
                 </nav>
