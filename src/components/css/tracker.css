@@ -1,0 +1,28 @@
+
+.Title{
+    position: absolute;
+    left: 41%;
+    font-family: 'Roboto Mono', monospace;
+
+    margin-top: 40px;
+}
+
+.Title::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #3fbffa;
+    transition: width 500ms ease;
+
+}
+
+.Title:hover{
+    transition: 100ms ease;
+    cursor: pointer;
+
+}
+
+.Title:hover::after{
+    width: 99%;
+}
